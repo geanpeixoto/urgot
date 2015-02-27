@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_BR" ng-app="urApplication" ng-strict-di>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <title>Radiologia <!-- @ifdef DEBUG !> [debug]<!-- @endif --></title>
+
+        <!-- @ifdef DEBUG !>
+        <link rel="stylesheet" href="styles.css">
+        <!-- @endif -->
+        <!-- @ifndef DEBUG -->
+        <link rel="stylesheet" href="styles.min.css">
+        <!-- @endif -->
+    </head>
+    <body>
+        <header class="ur-header">
+            <h1 class="ur-header-title">{{title}}</h1>
+            <div class="ur-header-search">
+                <a class="ur-header-search-handle md-search"></a>
+            </div>
+            <div class="ur-header-nav">
+                <a class="ur-header-nav-handle">
+                    <span></span>
+                </a>
+            </div>
+        </header>
+
+        <main class="ur-main" ng-view>
+        </main>
+
+        <footer class="ur-footer">
+        </footer>
+
+        <!-- @ifdef DEBUG !>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="main.js"></script>
+        <!-- @endif -->
+        <!-- @ifndef DEBUG -->
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-route/angular-route.min.js"></script>
+        <script src="main.min.js"></script>
+        <!-- @endif -->
+    </body>
+</html>

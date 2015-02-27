@@ -1,0 +1,673 @@
+{
+    "items": [{
+        "name": "Radiografias Periapicais",
+        "alias": "periapical",
+        "items": [{
+            "name": "Região de Incisivos Superiores",
+            "width": 1489,
+            "height": 1945,
+            "src": "./images/incisivos_centrais_superiores.jpg",
+            "items": [{
+                "x": 757,
+                "y": 1077,
+                "label": "Forame incisivo"
+            }, {
+                "x": 875,
+                "y": 900,
+                "label": "Parede lateral do Canal incisivo"
+            }, {
+                "x": 721,
+                "y": 877,
+                "label": "Espinha nasal anterior"
+            }, {
+                "x": 1001,
+                "y": 655,
+                "label": "Assoalho da cavidade nasal"
+            }, {
+                "x": 391,
+                "y": 675,
+                "label": "Assoalho da cavidade nasal"
+            }, {
+                "x": 871,
+                "y": 221,
+                "label": "Cavidade nasal"
+            }, {
+                "x": 765,
+                "y": 361,
+                "label": "Septo nasal"
+            }, {
+                "x": 421,
+                "y": 221,
+                "label": "Cavidade nasal"
+            }, {
+                "x": 755,
+                "y": 1309,
+                "label": "Sutura intermaxilar"
+            }, {
+                "x": 969,
+                "y": 1505,
+                "label": "Sombra da Cartilagem nasal"
+            }]
+        }, {
+            "name": "Região de Incisivos Inferiores",
+            "width": 1396,
+            "height": 1822,
+            "src": "./images/incisivos_centrais_inferiores.jpg",
+            "items": [{
+                "x": 665,
+                "y": 149,
+                "label": "Esmalte"
+            }, {
+                "x": 725,
+                "y": 237,
+                "label": "Dentina"
+            }, {
+                "x": 729,
+                "y": 437,
+                "label": "Cavidade pulpar"
+            }, {
+                "x": 681,
+                "y": 805,
+                "label": "Lâmina dura"
+            }, {
+                "x": 665,
+                "y": 1253,
+                "label": "Foramina lingual"
+            }, {
+                "x": 697,
+                "y": 1221,
+                "label": "Tubérculo Geni"
+            }, {
+                "x": 641,
+                "y": 717,
+                "label": "Canal nutrício"
+            }, {
+                "x": 649,
+                "y": 1529,
+                "label": "Cortical óssea da Mandíbula"
+            }]
+        }, {
+            "name": "Região de Canino Superior (esquerdo)",
+            "width": 1242,
+            "height": 1623,
+            "src": "./images/canino_superior_esquerdo.jpg",
+            "items": [{
+                "x": 109,
+                "y": 281,
+                "label": "Assoalho da cavidade nasal"
+            }, {
+                "x": 929,
+                "y": 617,
+                "label": "Assoalho do seio maxilar"
+            }, {
+                "x": 669,
+                "y": 321,
+                "label": "Seio Maxilar"
+            }, {
+                "x": 893,
+                "y": 89,
+                "label": "Septo do seio maxilar"
+            }, {
+                "x": 329,
+                "y": 285,
+                "label": "Y invertido de Ennis"
+            }, {
+                "x": 441,
+                "y": 469,
+                "label": "Parede anterior do Seio maxilar"
+            }]
+        }, {
+            "name": "Região de Canino Inferior (esquerdo)",
+            "width": 1325,
+            "height": 1998,
+            "src": "./images/canino_inferior_esquerdo.jpg",
+            "items": [{
+                "x": 440,
+                "y": 750,
+                "label": "Burn out-Velamento da região cervical"
+            }, {
+                "x": 1020,
+                "y": 870,
+                "label": "Burn out-Velamento da região cervical"
+            }, {
+                "x": 1100,
+                "y": 1800,
+                "label": "Forame Mentual"
+            }]
+        }, {
+            "name": "Região de Pré-molares Superiores (esquerdo)",
+            "width": 1517,
+            "height": 1171,
+            "src": "./images/pre_superior_esquerdo.jpg",
+            "items": [{
+                "x": 861,
+                "y": 159,
+                "label": "Seio maxilar"
+            }, {
+                "x": 497,
+                "y": 95,
+                "label": "Seio maxilar"
+            }, {
+                "x": 733,
+                "y": 121,
+                "label": "Septo do Seio maxilar"
+            }, {
+                "x": 255,
+                "y": 55,
+                "label": "Parede Anterior do Seio maxilar"
+            }, {
+                "x": 841,
+                "y": 595,
+                "label": "Assoalho do Seio maxilar"
+            }, {
+                "x": 1123,
+                "y": 451,
+                "label": "Processo zigomático da maxila"
+            }, {
+                "x": 1421,
+                "y": 343,
+                "label": "Osso Zigomático"
+            }]
+        }, {
+            "name": "Região de Pré-molares Inferior (esquerdo)",
+            "width": 1606,
+            "height": 1172,
+            "src": "./images/pre-molar_inferior_esquerdo.jpg",
+            "items": [{
+                "x": 1497,
+                "y": 1037,
+                "label": "Canal da mandíbula"
+            }, {
+                "x": 1443,
+                "y": 961,
+                "label": "Cortical superior do canal da mandíbula"
+            }, {
+                "x": 887,
+                "y": 791,
+                "label": "Forame mentual"
+            }, {
+                "x": 917,
+                "y": 733,
+                "label": "Espaço do ligamento periodontal"
+            }, {
+                "x": 861,
+                "y": 619,
+                "label": "Lâmina dura"
+            }]
+        }, {
+            "name": "Região de Molares Superiores (esquerdo)",
+            "width": 1142,
+            "height": 826,
+            "src": "./images/molar_superior_esquerdo.JPG",
+            "items": [{
+                "x": 381,
+                "y": 181,
+                "label": "Assoalho de seio maxilar"
+            }, {
+                "x": 445,
+                "y": 69,
+                "label": "Seio Maxilar"
+            }, {
+                "x": 993,
+                "y": 215,
+                "label": "Túber da maxila"
+            }, {
+                "x": 922,
+                "y": 241,
+                "label": "Processo zigomático da maxila"
+            }]
+        }, {
+            "name": "Região de Molares Inferiores (esquerdo)",
+            "width": 1325,
+            "height": 985,
+            "src": "./images/mo_inf_esquerdo.jpg",
+            "items": [{
+                "x": 273,
+                "y": 257,
+                "label": "Esmalte"
+            }, {
+                "x": 299,
+                "y": 333,
+                "label": "Dentina"
+            }, {
+                "x": 401,
+                "y": 483,
+                "label": "Câmara coronária"
+            }, {
+                "x": 211,
+                "y": 885,
+                "label": "Espaço do ligamento periodontal"
+            }, {
+                "x": 645,
+                "y": 759,
+                "label": "Espaço do ligamento periodontal"
+            }, {
+                "x": 625,
+                "y": 759,
+                "label": "Lâmina dura"
+            }, {
+                "x": 1141,
+                "y": 577,
+                "label": "Presença do germe dentário do 38"
+            }]
+        }, {
+            "name": "Região de Canino Superior (direito)",
+            "width": 1026,
+            "height": 1430,
+            "src": "./images/canino_superior_direito.jpg",
+            "items": [{
+                "x": 157,
+                "y": 453,
+                "label": "Seio Maxilar"
+            }, {
+                "x": 357,
+                "y": 421,
+                "label": "Parede Anterior do seio Maxilar"
+            }, {
+                "x": 65,
+                "y": 681,
+                "label": "Assoalho do seio Maxilar"
+            }, {
+                "x": 405,
+                "y": 265,
+                "label": "Y invertido de Ennis"
+            }, {
+                "x": 545,
+                "y": 265,
+                "label": "Assoalho da fossa nasal"
+            }]
+        }, {
+            "name": "Região de Canino Inferior (direito)",
+            "width": 1733,
+            "height": 2173,
+            "src": "./images/canino_inferior_direito.jpg",
+            "items": [{
+                "x": 409,
+                "y": 907,
+                "label": "Burn out-Velamento da região cervical"
+            }, {
+                "x": 809,
+                "y": 1057,
+                "label": "Espaço do ligamento periodontal"
+            }, {
+                "x": 759,
+                "y": 1257,
+                "label": "Canal nutrício"
+            }, {
+                "x": 819,
+                "y": 1457,
+                "label": "Lâmina dura"
+            }, {
+                "x": 571,
+                "y": 1845,
+                "label": "Forame Mentual"
+            }]
+        }, {
+            "name": "Região de Pré-molares Superiores (direito)",
+            "width": 1419,
+            "height": 1061,
+            "src": "./images/pre_mo_superior_di (2).jpg",
+            "items": [{
+                "x": 549,
+                "y": 61,
+                "label": "Seio maxilar"
+            }, {
+                "x": 539,
+                "y": 191,
+                "label": "Canal nutrício"
+            }, {
+                "x": 681,
+                "y": 89,
+                "label": "Septo do seio Maxilar"
+            }, {
+                "x": 977,
+                "y": 47,
+                "label": "Parede anterior do Seio maxilar"
+            }, {
+                "x": 73,
+                "y": 37,
+                "label": "Parede posterior do Seio maxilar"
+            }, {
+                "x": 403,
+                "y": 377,
+                "label": "Assoalho do seio maxilar"
+            }]
+        }, {
+            "name": "Região de Pré-molares Inferiores (direito)",
+            "width": 1505,
+            "height": 1096,
+            "src": "./images/pre_inferior_direito.jpg",
+            "items": [{
+                "x": 769,
+                "y": 921,
+                "label": "Forame mentual"
+            }, {
+                "x": 369,
+                "y": 921,
+                "label": "Fóvea submandibular"
+            }, {
+                "x": 881,
+                "y": 903,
+                "label": "Espaço do ligamento periodontal"
+            }, {
+                "x": 823,
+                "y": 793,
+                "label": "Lâmina dura"
+            }]
+        }, {
+            "name": "Região de Molares Superiores (direito)",
+            "width": 1739,
+            "height": 1284,
+            "src": "./images/molar_sperior_direito.jpg",
+            "items": [{
+                "x": 993,
+                "y": 285,
+                "label": "Assoalho de seio maxilar"
+            }, {
+                "x": 973,
+                "y": 73,
+                "label": "Osso zigomático"
+            }, {
+                "x": 409,
+                "y": 249,
+                "label": "Túber da maxila"
+            }, {
+                "x": 541,
+                "y": 961,
+                "label": "Processo coronóide da mandíbula"
+            }, {
+                "x": 1233,
+                "y": 317,
+                "label": "Processo zigomático da maxila"
+            }, {
+                "x": 229,
+                "y": 139,
+                "label": "Hâmulo pterigoideo"
+            }]
+        }, {
+            "name": "Região de Molares Inferiores (direito)",
+            "width": 1739,
+            "height": 1284,
+            "src": "./images/mo_inf_direito.jpg",
+            "items": [{
+                "x": 213,
+                "y": 461,
+                "label": "Linha Oblíqua"
+            }, {
+                "x": 729,
+                "y": 1055,
+                "label": "Região de fóvea da mandíbula"
+            }]
+        }]
+    }, {
+        "name": "Radiografias Panorâmicas",
+        "alias": "panorâmica",
+        "items": [{
+            "name": "Panorâmica",
+            "width": 960,
+            "height": 508,
+            "src": "./images/pan.png",
+            "items": [{
+                "x": 202,
+                "y": 47,
+                "label": "Parede posterior do seio maxilar"
+            }, {
+                "x": 195,
+                "y": 8,
+                "label": "Fossa Pterigopalatina"
+            }, {
+                "x": 276,
+                "y": 85,
+                "label": "Processo zigomético da maxila / Superfície posterior zigomética"
+            }, {
+                "x": 316,
+                "y": 120,
+                "label": "Assoalho do seio maxilar"
+            }, {
+                "x": 573,
+                "y": 35,
+                "label": "Palato Duro"
+            }, {
+                "x": 403,
+                "y": 32,
+                "label": "Palato Duro"
+            }, {
+                "x": 573,
+                "y": 59,
+                "label": "Assoalho da cavidade nasal"
+            }, {
+                "x": 403,
+                "y": 59,
+                "label": "Assoalho da cavidade nasal"
+            }, {
+                "x": 462,
+                "y": 67,
+                "label": "Cavidade nasal"
+            }, {
+                "x": 503,
+                "y": 51,
+                "label": "Septo nasal"
+            }, {
+                "x": 480,
+                "y": 68,
+                "label": "Corneto nasal inferior"
+            }, {
+                "x": 501,
+                "y": 149,
+                "label": "Forame Incisivo"
+            }, {
+                "x": 499,
+                "y": 130,
+                "label": "Canal Incisivo"
+            }, {
+                "x": 501,
+                "y": 91,
+                "label": "Espinha nasal anterior"
+            }, {
+                "x": 197,
+                "y": 117,
+                "label": "Túber da maxila"
+            }, {
+                "x": 136,
+                "y": 16,
+                "label": "Arco Zigomético"
+            }, {
+                "x": 886,
+                "y": 36,
+                "label": "Tubérculo articular"
+            }, {
+                "x": 72,
+                "y": 6,
+                "label": "Fossa mandibular"
+            }, {
+                "x": 71,
+                "y": 22,
+                "label": "Cabeça da mandíbula"
+            }, {
+                "x": 17,
+                "y": 34,
+                "label": "Poro acústico externo"
+            }, {
+                "x": 104,
+                "y": 79,
+                "label": "Incisura da mandíbula"
+            }, {
+                "x": 172,
+                "y": 28,
+                "label": "Processo coronóide"
+            }, {
+                "x": 812,
+                "y": 65,
+                "label": "Lâmina lateral externa do processo pterigoide do osso esfenoide"
+            }, {
+                "x": 825,
+                "y": 49,
+                "label": "Processo Coronóide"
+            }, {
+                "x": 157,
+                "y": 316,
+                "label": "Canal da mandíbula"
+            }, {
+                "x": 654,
+                "y": 397,
+                "label": "Osso cortical da base"
+            }, {
+                "x": 362,
+                "y": 359,
+                "label": "Forame mentual"
+            }, {
+                "x": 370,
+                "y": 448,
+                "label": "Osso hióde"
+            }, {
+                "x": 10,
+                "y": 200,
+                "label": "Lóbulo da orelha"
+            }, {
+                "x": 72,
+                "y": 315,
+                "label": "Ângulo da mandíbula"
+            }, {
+                "x": 56,
+                "y": 424,
+                "label": "Vértebra cervical"
+            }, {
+                "x": 432,
+                "y": 10,
+                "label": "Seio esfenoidal"
+            }]
+        }]
+    }, {
+        "name": "Radiografias Oclusal",
+        "alias":"oclusal",
+        "items": [{
+            "name": "Maxila",
+            "width": 2227,
+            "height": 1645,
+            "src": "./images/oclusal_maxila.jpg",
+            "items": [{
+                "label": "Lábio Superior",
+                "x": 470,
+                "y": 1315
+            }, {
+                "label": "Sutura intermaxilar",
+                "x": 1185,
+                "y": 1365
+            }, {
+                "label": "Espinha Nasal Anterior",
+                "x": 1165,
+                "y": 1241
+            }, {
+                "label": "Septo Nasal",
+                "x": 1189,
+                "y": 549
+            }, {
+                "label": "Cavidade Nasal",
+                "x": 1009,
+                "y": 717
+            }, {
+                "label": "Cavidade Nasal",
+                "x": 1313,
+                "y": 677
+            }, {
+                "label": "Assoalho da cavidade nasal",
+                "x": 969,
+                "y": 1001
+            }, {
+                "label": "Assoalho da cavidade nasal",
+                "x": 1440,
+                "y": 941
+            }, {
+                "label": "Forame incisivo",
+                "x": 1249,
+                "y": 1044
+            }, {
+                "label": "Parede lateral do forame incisivo",
+                "x": 1271,
+                "y": 1001
+            }, {
+                "label": "Seio Maxilar (extensão zigomática)",
+                "x": 2153,
+                "y": 389
+            }, {
+                "label": "Seio Maxilar (extensão zigomática",
+                "x": 93,
+                "y": 341
+            }, {
+                "label": "Canal nasolacrimal",
+                "x": 777,
+                "y": 293
+            }, {
+                "label": "Canal nasolacrimal",
+                "x": 1569,
+                "y": 333
+            }, {
+                "label": "Raiz palatina do 26",
+                "x": 1769,
+                "y": 333
+            }, {
+                "label": "Raiz palatina do 16",
+                "x": 569,
+                "y": 333
+            }, {
+                "label": "Seio maxilar ( extensão palatina)",
+                "x": 1609,
+                "y": 477
+            }, {
+                "label": "Seio maxilar ( extensão palatina )",
+                "x": 745,
+                "y": 417
+            }, {
+                "label": "Seio maxilar ( extensão anterior)",
+                "x": 1701,
+                "y": 633
+            }, {
+                "label": "Seio maxilar ( extensão anterior)",
+                "x": 853,
+                "y": 85
+            }, {
+                "label": "Seio maxilar ( extensão anterior)",
+                "x": 460,
+                "y": 583
+            }, {
+                "label": "Sombra do osso Frontal",
+                "x": 853,
+                "y": 85
+            }]
+        }, {
+            "name": "Mandíbula",
+            "width": 2800,
+            "height": 2060,
+            "src": "./images/oclusal_mandibula.jpg",
+            "items": [{
+                "label": "Língua",
+                "x": 1329,
+                "y": 1053
+            }, {
+                "label": "Espinha mentual",
+                "x": 1440,
+                "y": 1340
+            }, {
+                "label": "Osso cortical lingual",
+                "x": 1997,
+                "y": 925
+            }, {
+                "label": "Forame mentual",
+                "x": 2347,
+                "y": 1005
+            }, {
+                "label": "Osso cortical vestibular",
+                "x": 521,
+                "y": 1013
+            }, {
+                "label": "Lábio inferior",
+                "x": 2329,
+                "y": 1781
+            }, {
+                "label": "Protuberância mentual",
+                "x": 1505,
+                "y": 1849
+            }]
+        }]
+    }]
+}
