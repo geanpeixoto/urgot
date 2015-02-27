@@ -1,5 +1,10 @@
 <div class="ur-index">
-    <section ng-repeat="record in index.items">
-        {{record.name}}
-    </section>
+    <article ng-repeat="group in index.items">
+        <h1>{{group.name}}</h1>
+        <section>
+            <article ng-repeat="item in group.items">
+                <h2>{{item.name}}</h2>
+            </article>
+        </section>
+    </article>
 </div>

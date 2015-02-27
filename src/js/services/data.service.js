@@ -2,7 +2,7 @@
  * DataService Factory
  * @namespace Services
  */
-(function() {
+(function () {
     'use strict';
 
     angular.module('urApplication')
@@ -15,22 +15,22 @@
      *
      * @ngInject
      */
-    function dataService ($http) {
+    function dataService($http) {
         var request = $http.get('/data.json');
 
         return {
             getData: getResultData,
-            getAll: getAll
+            getGroups: getGroups
         };
 
         function getResultData() {
-            return request.then(function(result) {
+            return request.then(function (result) {
                 return result.data;
             });
         }
 
-        function getAll() {
-            return request.then(function(result) {
+        function getGroups() {
+            return request.then(function (result) {
                 return result.data.items;
             });
         }

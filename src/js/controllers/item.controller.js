@@ -5,7 +5,7 @@
     'use strict';
 
     angular.module('urApplication')
-        .controller('RadiographController', RadiographController);
+        .controller('ItemController', ItemController);
 
     /**
      * @namespace SearchController
@@ -13,7 +13,7 @@
      * @desc Controlador de pesquisa
      * @ngInject
      */
-    function RadiographController ($routeParams, dataService) {
+    function ItemController ($routeParams, dataService) {
         var that = this;
 
         constructor();

@@ -16,8 +16,8 @@
                 controllerAs: 'index',
                 templateUrl: 'view/index.html'
             })
-            .when('/radiografia/:groupAlias/:radiographAlias', {
-                controller: 'RadiographController',
+            .when('/:groupAlias/:itemAlias', {
+                controller: 'ItemController',
                 templateUrl: 'view/radiograph.html'
             })
             .when('/pesquisa', {

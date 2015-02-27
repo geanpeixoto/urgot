@@ -19,7 +19,7 @@
         constructor();
 
         function constructor() {
-            dataService.getAll().then(function(items) {
+            dataService.getGroups().then(function(items) {
                 that.items = items;
             });
         }
