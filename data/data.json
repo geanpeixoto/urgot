@@ -4,6 +4,7 @@
         "alias": "periapical",
         "items": [{
             "name": "Região de Incisivos Superiores",
+            "alias": "incisivos-superiores",
             "width": 1489,
             "height": 1945,
             "src": "./images/incisivos_centrais_superiores.jpg",
@@ -50,6 +51,7 @@
             }]
         }, {
             "name": "Região de Incisivos Inferiores",
+            "alias": "incisivos-inferiores",
             "width": 1396,
             "height": 1822,
             "src": "./images/incisivos_centrais_inferiores.jpg",
@@ -88,6 +90,7 @@
             }]
         }, {
             "name": "Região de Canino Superior (esquerdo)",
+            "alias": "canino-superior-esquerdo",
             "width": 1242,
             "height": 1623,
             "src": "./images/canino_superior_esquerdo.jpg",
@@ -118,6 +121,7 @@
             }]
         }, {
             "name": "Região de Canino Inferior (esquerdo)",
+            "alias": "canino-inferior-esquerdo",
             "width": 1325,
             "height": 1998,
             "src": "./images/canino_inferior_esquerdo.jpg",
@@ -136,6 +140,7 @@
             }]
         }, {
             "name": "Região de Pré-molares Superiores (esquerdo)",
+            "alias": "premolar-superior-esquerdo",
             "width": 1517,
             "height": 1171,
             "src": "./images/pre_superior_esquerdo.jpg",
@@ -170,6 +175,7 @@
             }]
         }, {
             "name": "Região de Pré-molares Inferior (esquerdo)",
+            "alias": "premolar-inferior-esquerdo",
             "width": 1606,
             "height": 1172,
             "src": "./images/pre-molar_inferior_esquerdo.jpg",
@@ -196,6 +202,7 @@
             }]
         }, {
             "name": "Região de Molares Superiores (esquerdo)",
+            "alias": "molar-superior-esquerdo",
             "width": 1142,
             "height": 826,
             "src": "./images/molar_superior_esquerdo.JPG",
@@ -218,6 +225,7 @@
             }]
         }, {
             "name": "Região de Molares Inferiores (esquerdo)",
+            "alias": "molar-inferior-esquerdo",
             "width": 1325,
             "height": 985,
             "src": "./images/mo_inf_esquerdo.jpg",
@@ -252,6 +260,7 @@
             }]
         }, {
             "name": "Região de Canino Superior (direito)",
+            "alias": "canino-superior-direito",
             "width": 1026,
             "height": 1430,
             "src": "./images/canino_superior_direito.jpg",
@@ -278,6 +287,7 @@
             }]
         }, {
             "name": "Região de Canino Inferior (direito)",
+            "alias": "canino-inferior-direito",
             "width": 1733,
             "height": 2173,
             "src": "./images/canino_inferior_direito.jpg",
@@ -304,6 +314,7 @@
             }]
         }, {
             "name": "Região de Pré-molares Superiores (direito)",
+            "alias": "premolar-superior-direito",
             "width": 1419,
             "height": 1061,
             "src": "./images/pre_mo_superior_di (2).jpg",
@@ -334,6 +345,7 @@
             }]
         }, {
             "name": "Região de Pré-molares Inferiores (direito)",
+            "alias": "premolar-inferior-direito",
             "width": 1505,
             "height": 1096,
             "src": "./images/pre_inferior_direito.jpg",
@@ -356,6 +368,7 @@
             }]
         }, {
             "name": "Região de Molares Superiores (direito)",
+            "alias": "molares-superiores-direito",
             "width": 1739,
             "height": 1284,
             "src": "./images/molar_sperior_direito.jpg",
@@ -386,6 +399,7 @@
             }]
         }, {
             "name": "Região de Molares Inferiores (direito)",
+            "alias": "molares-inferiores-direito",
             "width": 1739,
             "height": 1284,
             "src": "./images/mo_inf_direito.jpg",
@@ -400,10 +414,145 @@
             }]
         }]
     }, {
+        "name": "Radiografias Oclusais",
+        "alias":"oclusal",
+        "items": [{
+            "name": "Maxila",
+            "alias": "maxila",
+            "width": 2227,
+            "height": 1645,
+            "src": "./images/oclusal_maxila.jpg",
+            "items": [{
+                "label": "Lábio Superior",
+                "x": 470,
+                "y": 1315
+            }, {
+                "label": "Sutura intermaxilar",
+                "x": 1185,
+                "y": 1365
+            }, {
+                "label": "Espinha Nasal Anterior",
+                "x": 1165,
+                "y": 1241
+            }, {
+                "label": "Septo Nasal",
+                "x": 1189,
+                "y": 549
+            }, {
+                "label": "Cavidade Nasal",
+                "x": 1009,
+                "y": 717
+            }, {
+                "label": "Cavidade Nasal",
+                "x": 1313,
+                "y": 677
+            }, {
+                "label": "Assoalho da cavidade nasal",
+                "x": 969,
+                "y": 1001
+            }, {
+                "label": "Assoalho da cavidade nasal",
+                "x": 1440,
+                "y": 941
+            }, {
+                "label": "Forame incisivo",
+                "x": 1249,
+                "y": 1044
+            }, {
+                "label": "Parede lateral do forame incisivo",
+                "x": 1271,
+                "y": 1001
+            }, {
+                "label": "Seio Maxilar (extensão zigomática)",
+                "x": 2153,
+                "y": 389
+            }, {
+                "label": "Seio Maxilar (extensão zigomática",
+                "x": 93,
+                "y": 341
+            }, {
+                "label": "Canal nasolacrimal",
+                "x": 777,
+                "y": 293
+            }, {
+                "label": "Canal nasolacrimal",
+                "x": 1569,
+                "y": 333
+            }, {
+                "label": "Raiz palatina do 26",
+                "x": 1769,
+                "y": 333
+            }, {
+                "label": "Raiz palatina do 16",
+                "x": 569,
+                "y": 333
+            }, {
+                "label": "Seio maxilar ( extensão palatina)",
+                "x": 1609,
+                "y": 477
+            }, {
+                "label": "Seio maxilar ( extensão palatina )",
+                "x": 745,
+                "y": 417
+            }, {
+                "label": "Seio maxilar ( extensão anterior)",
+                "x": 1701,
+                "y": 633
+            }, {
+                "label": "Seio maxilar ( extensão anterior)",
+                "x": 853,
+                "y": 85
+            }, {
+                "label": "Seio maxilar ( extensão anterior)",
+                "x": 460,
+                "y": 583
+            }, {
+                "label": "Sombra do osso Frontal",
+                "x": 853,
+                "y": 85
+            }]
+        }, {
+            "name": "Mandíbula",
+            "alias": "mandibula",
+            "width": 2800,
+            "height": 2060,
+            "src": "./images/oclusal_mandibula.jpg",
+            "items": [{
+                "label": "Língua",
+                "x": 1329,
+                "y": 1053
+            }, {
+                "label": "Espinha mentual",
+                "x": 1440,
+                "y": 1340
+            }, {
+                "label": "Osso cortical lingual",
+                "x": 1997,
+                "y": 925
+            }, {
+                "label": "Forame mentual",
+                "x": 2347,
+                "y": 1005
+            }, {
+                "label": "Osso cortical vestibular",
+                "x": 521,
+                "y": 1013
+            }, {
+                "label": "Lábio inferior",
+                "x": 2329,
+                "y": 1781
+            }, {
+                "label": "Protuberância mentual",
+                "x": 1505,
+                "y": 1849
+            }]
+        }]
+    }, {
         "name": "Radiografias Panorâmicas",
         "alias": "panorâmica",
         "items": [{
             "name": "Panorâmica",
+            "alias": "panoramica",
             "width": 960,
             "height": 508,
             "src": "./images/pan.png",
@@ -535,138 +684,6 @@
                 "x": 432,
                 "y": 10,
                 "label": "Seio esfenoidal"
-            }]
-        }]
-    }, {
-        "name": "Radiografias Oclusal",
-        "alias":"oclusal",
-        "items": [{
-            "name": "Maxila",
-            "width": 2227,
-            "height": 1645,
-            "src": "./images/oclusal_maxila.jpg",
-            "items": [{
-                "label": "Lábio Superior",
-                "x": 470,
-                "y": 1315
-            }, {
-                "label": "Sutura intermaxilar",
-                "x": 1185,
-                "y": 1365
-            }, {
-                "label": "Espinha Nasal Anterior",
-                "x": 1165,
-                "y": 1241
-            }, {
-                "label": "Septo Nasal",
-                "x": 1189,
-                "y": 549
-            }, {
-                "label": "Cavidade Nasal",
-                "x": 1009,
-                "y": 717
-            }, {
-                "label": "Cavidade Nasal",
-                "x": 1313,
-                "y": 677
-            }, {
-                "label": "Assoalho da cavidade nasal",
-                "x": 969,
-                "y": 1001
-            }, {
-                "label": "Assoalho da cavidade nasal",
-                "x": 1440,
-                "y": 941
-            }, {
-                "label": "Forame incisivo",
-                "x": 1249,
-                "y": 1044
-            }, {
-                "label": "Parede lateral do forame incisivo",
-                "x": 1271,
-                "y": 1001
-            }, {
-                "label": "Seio Maxilar (extensão zigomática)",
-                "x": 2153,
-                "y": 389
-            }, {
-                "label": "Seio Maxilar (extensão zigomática",
-                "x": 93,
-                "y": 341
-            }, {
-                "label": "Canal nasolacrimal",
-                "x": 777,
-                "y": 293
-            }, {
-                "label": "Canal nasolacrimal",
-                "x": 1569,
-                "y": 333
-            }, {
-                "label": "Raiz palatina do 26",
-                "x": 1769,
-                "y": 333
-            }, {
-                "label": "Raiz palatina do 16",
-                "x": 569,
-                "y": 333
-            }, {
-                "label": "Seio maxilar ( extensão palatina)",
-                "x": 1609,
-                "y": 477
-            }, {
-                "label": "Seio maxilar ( extensão palatina )",
-                "x": 745,
-                "y": 417
-            }, {
-                "label": "Seio maxilar ( extensão anterior)",
-                "x": 1701,
-                "y": 633
-            }, {
-                "label": "Seio maxilar ( extensão anterior)",
-                "x": 853,
-                "y": 85
-            }, {
-                "label": "Seio maxilar ( extensão anterior)",
-                "x": 460,
-                "y": 583
-            }, {
-                "label": "Sombra do osso Frontal",
-                "x": 853,
-                "y": 85
-            }]
-        }, {
-            "name": "Mandíbula",
-            "width": 2800,
-            "height": 2060,
-            "src": "./images/oclusal_mandibula.jpg",
-            "items": [{
-                "label": "Língua",
-                "x": 1329,
-                "y": 1053
-            }, {
-                "label": "Espinha mentual",
-                "x": 1440,
-                "y": 1340
-            }, {
-                "label": "Osso cortical lingual",
-                "x": 1997,
-                "y": 925
-            }, {
-                "label": "Forame mentual",
-                "x": 2347,
-                "y": 1005
-            }, {
-                "label": "Osso cortical vestibular",
-                "x": 521,
-                "y": 1013
-            }, {
-                "label": "Lábio inferior",
-                "x": 2329,
-                "y": 1781
-            }, {
-                "label": "Protuberância mentual",
-                "x": 1505,
-                "y": 1849
             }]
         }]
     }]
