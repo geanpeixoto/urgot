@@ -19,6 +19,9 @@
         constructor();
 
         function constructor() {
+            dataService.getItem($routeParams.groupAlias, $routeParams.itemAlias).then(function(item) {
+                that.data = item;
+            });
         }
     }
 })();

@@ -101,6 +101,7 @@ gulp.task('watch', function () {
     watch('html');
     watch('less');
     watch('js');
+    gulp.watch('./data/**', ['build:data']);
 });
 
 /**

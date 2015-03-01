@@ -16,23 +16,53 @@
      * @ngInject
      */
     function dataService($http) {
-        var request = $http.get('/data.json');
+        var groups;
+
+        constructor();
 
         return {
-            getData: getResultData,
+            getItem: getItem,
             getGroups: getGroups
         };
 
-        function getResultData() {
-            return request.then(function (result) {
-                return result.data;
+        function constructor() {
+            groups = $http.get('/data.json').then(function(result) {
+                var data = result.data.items;
+
+                for ( var i in data ) {
+                    var group = data[i];
+
+                    for ( var j in group.items ) {
+                        var item = group.items[j];
+                        item.group = group;
+                    }
+                }
+
+                return data;
+            });
+        }
+
+        function getItem(groupAlias, itemAlias) {
+            return groups.then(function(groups) {
+                for ( var i in groups ) {
+                    var group = groups[i];
+
+                    if (group.alias === groupAlias ) {
+                        for ( var j in group.items ) {
+                            var item = group.items[j];
+                            if ( item.alias === itemAlias) {
+                                return item;
+                            }
+                        }
+                    }
+                }
+
+                return null;
             });
         }
 
         function getGroups() {
-            return request.then(function (result) {
-                return result.data.items;
-            });
+            return groups;
         }
     }
 })();

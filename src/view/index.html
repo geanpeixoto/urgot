@@ -1,10 +1,11 @@
 <div class="ur-index">
-    <article ng-repeat="group in index.items">
-        <h1>{{group.name}}</h1>
+    <article class="ur-index-group" ng-repeat="group in index.items">
+        <header><h1>{{group.name}}</h1></header>
         <section>
-            <article ng-repeat="item in group.items">
-                <h2>{{item.name}}</h2>
-            </article>
+            <a ng-href="#/{{group.alias}}/{{item.alias}}" class="ur-index-item" ng-repeat="item in group.items">
+                <header>{{item.name}}</header>
+                <img ng-src="{{item.src}}">
+            </a>
         </section>
     </article>
 </div>

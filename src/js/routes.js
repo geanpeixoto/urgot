@@ -18,7 +18,8 @@
             })
             .when('/:groupAlias/:itemAlias', {
                 controller: 'ItemController',
-                templateUrl: 'view/radiograph.html'
+                controllerAs: 'item',
+                templateUrl: 'view/item.html'
             })
             .when('/pesquisa', {
                 controller: 'SearchController',
