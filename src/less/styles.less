@@ -3,6 +3,9 @@
 
 @import 'bower_components/material-colors/dist/colors.less';
 @import 'bower_components/material-shadows/material-shadows-prefixed.less';
+@import 'index.less';
+@import 'item.less';
+
 * {
     box-sizing: border-box;
 }
@@ -13,18 +16,26 @@ body {
     height: 100%;
 }
 
+body {
+    background: #f7f7f7;
+}
+
 @ur-header-height: 56px;
 @ur-header-bg-color: @md-red-600;
 @ur-header-handle-size: 40px;
 @ur-header-color: white;
+
 .ur-header {
     .md-z-depth(1);
+    
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: @ur-header-height;
     background: @ur-header-bg-color;
+    z-index: 10;
+    
     .ur-header-nav {
         position: absolute;
         right: 8px;
@@ -48,15 +59,16 @@ body {
                 bottom: 0;
             }
             span:before {
-                content: ' ';
+                content: '';
                 bottom: 8px;
             }
             span:after {
-                content: ' ';
+                content: '';
                 top: 8px;
             }
         }
     }
+    
     .ur-header-search {
         position: absolute;
         right: 56px;
@@ -73,7 +85,8 @@ body {
 }
 
 .ur-main {
-    position: fixed;
-    top: @ur-header-height;
-    height: ~'calc(100% - 56px)'
+    position: absolute;
+    margin-top: @ur-header-height;
+    height: ~'calc(100% - 56px)';
+    width: 100%;
 }
