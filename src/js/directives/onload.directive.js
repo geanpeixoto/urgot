@@ -10,21 +10,18 @@
     /**
      * @namespace urOnload
      * @memberOf Directive
-     * @desc Controlador das radiografias
+     * @desc
+     *
      * @ngInject
      */
     function urOnload() {
         return {
             restrict: 'A',
-            scope: {
-                urOnload: '&'
-            },
             link: link
         };
 
         function link(scope, element, attrs) {
             element.bind('load', function () {
-                console.log(scope);
                 scope.$apply(attrs.urOnload);
             });
         }

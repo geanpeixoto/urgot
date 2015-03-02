@@ -16,18 +16,12 @@
     function ItemController ($routeParams, dataService) {
         var that = this;
 
-        that.onImageLoad = onImageLoad;
-
         constructor();
 
         function constructor() {
             dataService.getItem($routeParams.groupAlias, $routeParams.itemAlias).then(function(item) {
                 that.data = item;
             });
-        }
-
-        function onImageLoad() {
-            console.log('onImageLoad', arguments);
         }
     }
 })();
