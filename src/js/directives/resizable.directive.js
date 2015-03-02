@@ -22,13 +22,18 @@
         };
 
         function link(scope, element, attrs) {
-            element.on('wheel', onWheel);
+            element.on({
+                'wheel': onWheel
+            });
 
-            function onWheel(event) {
-                var direction = Math.sign(event.deltaX - event.deltaY);
+            function onWheel(jEvent) {
+                var event = jEvent.originalEvent;
+                var width = element.width();
+                var height = element.height();
+                var step = 0.10 * Math.sign(event.deltaX - event.deltaY);
 
-                console.log(element.width, element.height, element);
-                console.log('urResizable:onWheel', direction);
+                element.width(width + step * width);
+                element.height(height + step * height);
             }
         }
 
