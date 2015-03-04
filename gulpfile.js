@@ -29,7 +29,7 @@ var preprocess_config = {
  * @task clean
  * Esta tarefa possui como objetivo limpar o diretório 'build'
  */
-gulp.task('clean', function () {
+gulp.task('clear', function () {
     gulp.src(config.dest, {read: false})
         .pipe(clean());
 });
@@ -57,7 +57,7 @@ gulp.task('bower:copy', function () {
 /**
  * @task build
  */
-gulp.task('build', ['clean', 'bower:copy', 'build:data', 'build:html', 'build:less', 'build:js']);
+gulp.task('build', ['clear', 'bower:copy', 'build:data', 'build:html', 'build:less', 'build:js']);
 
 gulp.task('build:data', function() {
     gulp.src('./data/**')
@@ -107,4 +107,4 @@ gulp.task('watch', function () {
 /**
  * @task default
  */
-gulp.task('default', ['clean', 'build', 'watch', 'preview']);
+gulp.task('default', ['build', 'watch', 'preview']);

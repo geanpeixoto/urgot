@@ -34,6 +34,16 @@
 
                     for ( var j in group.items ) {
                         var item = group.items[j];
+
+                        var width = item.width;
+                        var height = item.height;
+
+
+                        for ( var k in item.items ) {
+                            var label = item.items[k];
+                            label.x = ((label.x/width) * 100) + '%';
+                            label.y = ((label.y/height) * 100) + '%';
+                        }
                         item.group = group;
                     }
                 }

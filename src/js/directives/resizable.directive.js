@@ -22,19 +22,18 @@
         };
 
         function link(scope, element, attrs) {
-            element.on({
-                'wheel': onWheel
-            });
-
-            function onWheel(jEvent) {
-                var event = jEvent.originalEvent;
-                var width = element.width();
-                var height = element.height();
-                var step = 0.10 * Math.sign(event.deltaX - event.deltaY);
-
-                element.width(width + step * width);
-                element.height(height + step * height);
-            }
+//            element.on({
+//                'wheel': onWheel
+//            });
+//
+//            function onWheel(jEvent) {
+//                var event = jEvent.originalEvent;
+//                var offset = element.offset();
+//                var step = 0.10 * Math.sign(event.deltaX - event.deltaY);
+//
+//                element.width( (1 + step) * element.width());
+//                element.height( (1 + step) * element.height());
+//            }
         }
 
     }
