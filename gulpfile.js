@@ -4,7 +4,7 @@
 
 var gulp = require('gulp'),
     preprocess = require('gulp-preprocess'),
-    clean = require('gulp-clean'),
+    del = require('del'),
     connect = require('gulp-connect'),
     concat = require('gulp-concat'),
     less = require('gulp-less'),
@@ -30,8 +30,7 @@ var preprocess_config = {
  * Esta tarefa possui como objetivo limpar o diretório 'build'
  */
 gulp.task('clean', function () {
-    gulp.src(config.dest, {read: false})
-        .pipe(clean());
+    del([config.dest]);
 });
 
 /**
