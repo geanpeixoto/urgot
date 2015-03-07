@@ -28,6 +28,7 @@
         function link(scope, element, attrs) {
             var maxZoom = 2;
             var dom = element.dom();
+            var style = dom.style;
             var parent = dom.parentNode;
             var image = dom.querySelector('img');
 
@@ -44,12 +45,12 @@
                 var dy = maxHeight/height;
                 var ratio = dx < dy ? dx : dy;
 
-                dom.style.maxWidth = Math.ceil(width*maxZoom) + 'px';
-                dom.style.maxHeight = Math.ceil(height*maxZoom) + 'px';
-                dom.style.width = dom.style.minWidth = (width = Math.ceil(width*ratio))+'px';
-                dom.style.height = dom.style.minHeight = (height = Math.ceil(height*ratio))+'px';
-                dom.style.top = Math.ceil((maxHeight-height)/2) + 'px';
-                dom.style.left = Math.ceil((maxWidth-width)/2) + 'px';
+                style.maxWidth = Math.ceil(width*maxZoom) + 'px';
+                style.maxHeight = Math.ceil(height*maxZoom) + 'px';
+                style.width = dom.style.minWidth = (width = Math.ceil(width*ratio))+'px';
+                style.height = dom.style.minHeight = (height = Math.ceil(height*ratio))+'px';
+                style.top = Math.ceil((maxHeight-height)/2) + 'px';
+                style.left = Math.ceil((maxWidth-width)/2) + 'px';
             }
         }
     }

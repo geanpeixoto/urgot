@@ -1,13 +1,15 @@
-<ur-item ng-if="item.data != null" src="{{item.data.src}}" ur-resizable>
-    <ul>
-        <li ng-repeat="label in item.data.items" class="ur-item-label" style="left:{{label.x}};top:{{label.y}}">
-            <span>
-                {{label.label}}
-            </span>
-        </li>
-    </ul>
-</div>
-<div class="ur-item" ng-if="item.data == null">
-    Item não encontrado.
+<div class="ur-item-wrapper">
+    <ur-item ng-if="item.data != null" src="{{item.data.src}}" ur-resizable ur-draggable>
+        <ul>
+            <li ng-repeat="label in item.data.items" class="ur-item-label" style="left:{{label.x}};top:{{label.y}}">
+                <span>
+                    {{label.label}}
+                </span>
+            </li>
+        </ul>
+    </div>
+    <div ng-if="item.data == null">
+        Item não encontrado.
+    </div>
 </div>
 
