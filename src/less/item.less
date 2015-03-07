@@ -1,13 +1,5 @@
 ur-item {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    
     overflow: hidden;
 
     img {
@@ -24,8 +16,10 @@ ur-item {
 
     .ur-item-label {
         position: absolute;
+        list-style: none;
 
         &:before {
+            display: block;
             content: '';
             width: 5px;
             height: 5px;

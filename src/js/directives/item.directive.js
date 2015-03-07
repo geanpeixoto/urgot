@@ -26,21 +26,30 @@
         };
 
         function link(scope, element, attrs) {
-            var image = element.find('img');
+            var maxZoom = 2;
+            var dom = element.dom();
+            var parent = dom.parentNode;
+            var image = dom.querySelector('img');
 
-            console.log(image.get());
+            image.addEventListener('load', onImageLoad);
 
-//            image.bind({
-//                'load': onImageLoad
-//            });
+            function onImageLoad(event) {
+                var maxWidth = parent.clientWidth;
+                var maxHeight = parent.clientHeight;
 
-            function onImageLoad(jEvent) {
-                var maxWidth = element.width();
-                var maxHeight = element.height();
-                var naturalWidth = this.naturalWidth;
-                var naturalHeight = this.naturalHeight;
+                var width = image.naturalWidth;
+                var height = image.naturalHeight;
 
-                console.log(naturalHeight, naturalWidth);
+                var dx = maxWidth/width;
+                var dy = maxHeight/height;
+                var ratio = dx < dy ? dx : dy;
+
+                dom.style.maxWidth = Math.ceil(width*maxZoom) + 'px';
+                dom.style.maxHeight = Math.ceil(height*maxZoom) + 'px';
+                dom.style.width = dom.style.minWidth = (width = Math.ceil(width*ratio))+'px';
+                dom.style.height = dom.style.minHeight = (height = Math.ceil(height*ratio))+'px';
+                dom.style.top = Math.ceil((maxHeight-height)/2) + 'px';
+                dom.style.left = Math.ceil((maxWidth-width)/2) + 'px';
             }
         }
     }
