@@ -35,6 +35,13 @@
                 // Posição do mouse dentro do imagem
                 var ex = event.layerX;
                 var ey = event.layerY;
+                var currentTarget = event.target;
+
+                while ( currentTarget != dom ) {
+                    ex += currentTarget.offsetLeft;
+                    ey += currentTarget.offsetTop;
+                    currentTarget = currentTarget.parentNode;
+                }
 
                 // Posição do mouse dentro da viewport
                 var mx = ex + dom.offsetLeft;
